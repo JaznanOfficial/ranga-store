@@ -225,6 +225,7 @@ const showProducts = (products) => {
       <button type="button" class="btn btn-primary">
         Details
       </button>
+      </div>
       `;
         document.getElementById("all-products").appendChild(div);
     }
