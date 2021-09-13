@@ -26,6 +26,12 @@ body {
   border-radius: 25px;
   margin-left: 5px;
 }
+
+.product-body{
+  margin-left: 4% !important;
+}
+
+
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
