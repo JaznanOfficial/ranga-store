@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FakeStore</title>
+  <title>Dream Shop</title>
   <link rel="stylesheet" href="./css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -15,6 +15,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+  <!-- font awesome kit -->
+  <script src="https://kit.fontawesome.com/d63d7fa193.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,7 +34,6 @@
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
-          <h1></h1>
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
@@ -50,31 +51,31 @@
             <tbody>
               <tr>
                 <th>Total Added-Products:</th>
-                <td>$ <span id="total-Products">0</span></td>
+                <td><i class="fas fa-arrow-right"></i> <span id="total-Products">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <th>Price:</th>
-                <td>$ <span id="price">0</span></td>
+                <td><i class="fas fa-dollar-sign"></i> <span id="price">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <th>Delivery-Charge:</th>
-                <td>$ <span id="delivery-charge">20</span></td>
+                <td><i class="fas fa-dollar-sign"></i> <span id="delivery-charge">20</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <th>Total-Tax:</th>
-                <td>$ <span id="total-tax">0</span></td>
+                <td><i class="fas fa-dollar-sign"></i> <span id="total-tax">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">Total</th>
-                <td colspan="2">$ <span id="total">0</span></td>
+                <td colspan="2"><i class="fas fa-dollar-sign"></i> <span id="total">0</span></td>
                 <td></td>
               </tr>
             </tbody>
